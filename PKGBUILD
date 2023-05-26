@@ -2,7 +2,7 @@
 _pkgname=dmenu
 pkgname="${_pkgname}-949sd"
 pkgver="unknown"
-pkgrel=2
+pkgrel=0
 pkgdesc="dmenu is an efficient dynamic menu for X."
 arch=('x86_64')
 url="https://github.com/dk949/$_pkgname"
