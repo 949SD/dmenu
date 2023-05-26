@@ -7,6 +7,7 @@ arch=('x86_64')
 url="https://github.com/dk949/$pkgname"
 license=('MIT')
 depends=()
+makedepends=('ldc')
 provides=('dmenu')
 source=("git+$url")
 md5sums=() #autofill using updpkgsums
