@@ -1,15 +1,16 @@
 # Maintainer: David K david.dk949@gmail.com
-pkgname=dmenu
+_pkgname=dmenu
+pkgname="${_pkgname}-949sd"
 pkgver="unknown"
 pkgrel=0
 pkgdesc="dmenu is an efficient dynamic menu for X."
 arch=('x86_64')
-url="https://github.com/dk949/$pkgname"
+url="https://github.com/dk949/$_pkgname"
 license=('MIT')
 depends=()
 makedepends=('ldc')
 provides=('dmenu')
-source=("git+$url")
+source=("$pkgname::git+$url")
 md5sums=() #autofill using updpkgsums
 sha256sums=('SKIP')
 
