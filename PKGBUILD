@@ -15,7 +15,12 @@ depends=(
 )
 optdepends=('libxinerama: only used if installed')
 makedepends=('ldc')
-provides=('dmenu')
+provides=(
+    'dmenu'
+    'dmenu_path'
+    'dmenu_run'
+    'dmenu.1'
+)
 source=("$pkgname::git+$url")
 md5sums=() #autofill using updpkgsums
 sha256sums=('SKIP')
