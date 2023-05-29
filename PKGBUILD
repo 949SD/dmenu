@@ -21,6 +21,7 @@ provides=(
     'dmenu_run'
     'dmenu.1'
 )
+conflicts=('dmenu')
 source=("$pkgname::git+$url")
 md5sums=() #autofill using updpkgsums
 sha256sums=('SKIP')
